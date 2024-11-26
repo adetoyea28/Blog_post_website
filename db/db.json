@@ -4,6 +4,16 @@
             "id": 1,
             "title": "Coding",
             "body": "Coding is the act of writing instructions in languages a computer can understand and then execute."
+        },
+        {
+            "id": 2,
+            "title": "Football",
+            "body": "Project Mbappe is almost a flop."
+        },
+        {
+            "id": 3,
+            "title": "Basketball",
+            "body": "MJ is better than Lebron James."
         }
     ]
 }
