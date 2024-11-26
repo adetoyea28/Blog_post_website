@@ -3,6 +3,7 @@
 import express from "express";
 import path from 'path';
 import { fileURLToPath } from 'url';
+import fs from 'fs';
 
 // Initializing the application
 const app = express();
@@ -12,9 +13,16 @@ const port = 4000;
 // Backend logic goes here
 // -----------------------
 
+const data = fs.readFileSync('db/db.json');
+
+app.set("view engine", "ejs");
+
+app.get('/', (req, res)=> {
+    res.render("index", {blog_post_website : data});
+})
 
 
-// -----------------------
+// --------------------
 
 // starts the server.
 app.listen(port, () => {
