@@ -13,13 +13,7 @@ const port = 4000;
 // Backend logic goes here
 // -----------------------
 
-const data = fs.readFileSync('db/db.json');
 
-app.set("view engine", "ejs");
-
-app.get('/', (req, res)=> {
-    res.render("index", {blog_post_website : data});
-})
 
 
 // --------------------
