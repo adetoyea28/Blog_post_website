@@ -2,18 +2,21 @@
     "example": [
         {
             "id": 1,
-            "title": "Coding",
-            "body": "Coding is the act of writing instructions in languages a computer can understand and then execute."
+            "title": "Next js 15 is out!!!",
+            "image": "https://media.licdn.com/dms/image/v2/D4D12AQFJWfUQaQ1qPg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1675674296261?e=2147483647&v=beta&t=P8Jq3VX9Y4XbyaI7Y1CwViZVcW3LzVONrntTaogyL94",
+            "body": "Vercel as released the latest version of Next js which is NextJs 15."
         },
         {
             "id": 2,
-            "title": "Football",
-            "body": "Project Mbappe is almost a flop."
+            "title": "Liverpool emerges victorious against Real Madrid.",
+            "image": "https://library.sportingnews.com/styles/crop_style_16_9_desktop/s3/2024-11/Alexis%20Mac%20Allister%20Liverpool%20Real%20Madrid%20112724.jpg?h=920929c4&itok=3lXrpAvQ",
+            "body": "In an intense match on wednesday, Liverpool F.C beat the spanish giant two goals to nil at anfield."
         },
         {
             "id": 3,
-            "title": "Basketball",
-            "body": "MJ is better than Lebron James."
+            "title": "Max Verstappen wins his fourth F1 World Championship.",
+            "image": "https://img.redbull.com/images/c_crop,w_3840,h_1920,x_0,y_0/c_auto,w_1200,h_630/f_auto,q_auto/redbullcom/2024/11/24/nrqoxx9as35r5ry8ashm/max-verstapen-2024-f1-world-champion-four",
+            "body": "Max Verstappen takes the F1 racing world by storm after winning his fourth consecutive World Championship."
         }
     ]
 }
